@@ -1,0 +1,73 @@
+body{
+	background-color:lightcyan;
+	width: 100%;
+	font-size: 16px;	
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header-nav{
+	border: 1px solid black;
+	border-radius: 0;
+  	background-color: rgb(255, 153, 0);  
+
+}
+.navbar-brand{
+	font-size: 200%;
+	font-weight: bold;
+	margin-top: 10px;
+  	padding-top:10px;
+}
+.new{
+	color: black;
+}
+#menuitem1,#menuitem2 {
+	border: 1px solid black;
+	font-size: 140%;
+	font-weight: bold;
+	background-color: chocolate;
+}
+
+#text1,#text2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	background-color: rgb(210, 247, 4)39);
+}
+	
+.main-title{
+	border: 1px solid black;
+	background-color: rgb(255, 153, 0);
+	font-weight: bold;
+	padding: 8px;
+	position: relative;
+	font-size: 170%;
+
+}
+.menu-title{
+	font-size: 170%;
+}
+#dropdown{
+	border: 1px solid black;
+	margin: 5px;
+	color:#000;
+	font-weight: 600;
+	line-height: 8px;
+}
+#dropdown:hover{
+	background-color: coral;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #000 !important;
+}
+.menu-item1{
+	background-color: goldenrod;
+	border: 1px solid black;
+	margin-block: 1px;
+}
+.menu-item2{
+	background-color: goldenrod;
+	border: 1px solid black;
+	margin-block: 1px;
+
+}
+
+	
