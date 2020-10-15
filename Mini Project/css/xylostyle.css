@@ -3,7 +3,7 @@ body {
   /* height: 100vh; */
   text-align: center;
   background-color: #283149;
-  background-image:url("/Images/XyloBackground.jpg");
+  background-image:url("../Images/XyloBackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
