@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <title>Xylophone</title>
+    <link rel="stylesheet" href="css/xylostyle.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="topnav">
+          <div class="row clearfix">
+              <img src="Images/Untitled.png" class="logo">
+              <ul class="main-nav">
+                  <li><a href="index.html" >HOME</a></li>
+                  <li><a href="drum.html" >DRUMS</a></li>
+                  <li><a href="xylo.html" >XYLOPHONE</a></li>
+                  <li><a href="#" >PIANO</a></li>
+                  <li><a href="#" >ABOUT</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+    <section class="fwh-slide">
+      <h1>Xylophone</h1>
+    </section>
+     
+    <div id="notes">
+      <button data-key="a" class="red">A</button>
+      <button data-key="s" class="orange">S</button>
+      <button data-key="d" class="yellow">D</button>
+      <button data-key="f" class="green">F</button>
+      <button data-key="j" class="teal">J</button>
+      <button data-key="k" class="blue">K</button>
+      <button data-key="l" class="purple">L</button>
+    </div>
+
+    <div id="audios">
+      <audio data-key="a" src="xylonotes/1.wav"></audio>
+      <audio data-key="s" src="xylonotes/2.wav"></audio>
+      <audio data-key="d" src="xylonotes/3.wav"></audio>
+      <audio data-key="f" src="xylonotes/4.wav"></audio>
+      <audio data-key="j" src="xylonotes/5.wav"></audio>
+      <audio data-key="k" src="xylonotes/6.wav"></audio>
+      <audio data-key="l" src="xylonotes/7.wav"></audio>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

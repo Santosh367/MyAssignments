@@ -1,0 +1,125 @@
+html,
+body {
+  /* height: 100vh; */
+  text-align: center;
+  background-color: #283149;
+  background-image:url("/Images/xylophone12.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+/* #notes{
+   */
+
+h1 {
+    font-size: 3rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+  
+}
+  
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.blue {
+  background-color: darkblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+#notes {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#notes button {
+  flex: 1;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 600px) {
+  #notes {
+    flex-direction: row;
+  }
+}
+.main-nav{
+  float: right;
+  margin-top: 40px;
+}
+.main-nav li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 30px;
+}
+.main-nav li a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: 100;
+}
+.main-nav li a:hover{
+  background-color: #ddd;
+  color: black;
+
+}
+.clearfix:after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0px;
+  clear: both;
+}
+.row{
+  max-width: 1180px;
+}
+
+.logo{
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 15px;
+}  
+
+.topnav {
+  background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
+  font-size: 20px;
+  
+}
+
+/* Style the links inside the navigation bar*/
+.topnav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+} 

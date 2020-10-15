@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+
+  background-image: url("/Images/drum12.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1 {
+  font-size: 50px;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+.fwh-slide{
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #303030;
+  border: #404B69;
+}
+
+/*.set {
+  margin: 10% auto;
+}*/
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  background-size: 100%;
+}
+img{
+ width: 100px;
+ height: 100px; 
+}
+.main-nav{
+  float: right;
+  margin-top: 40px;
+}
+.main-nav li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 30px;
+}
+.main-nav li a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 100%;
+  font-weight: 100;
+}
+.main-nav li a:hover{
+  background-color: #ddd;
+  color: black;
+
+}
+.clearfix:after{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0px;
+  clear: both;
+}
+.row{
+  max-width: 1180px;
+}
+
+.logo{
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 15px;
+}  
+
+.topnav {
+  background-color: rgba(0,0,0,0.7);
+  overflow: hidden;
+  font-size: 20px;
+  
+}
+
+/* Style the links inside the navigation bar*/
+.topnav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+   

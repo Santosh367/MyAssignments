@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('../Images/back.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+}
+.main-nav{
+    float: right;
+    margin-top: 40px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+.main-nav li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    background-color: #ddd;
+    color: black;
+
+}
+.main-content-header{
+    background-color:rgba(0,0,0,0.7);
+    width: 1300px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    /*top: 50%;
+    left: 63%;
+    transform: translate(-50%,-50%);*/
+}
+
+
+h1{
+    color: #fff;
+    font-size: 180%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+p{
+    color: #fff;
+    font-size: 100%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+p1{
+    color: aqua;
+    font-size: 100%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+/*.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+
+}*/
+
+
+
+
+.button{
+   
+    width: 1300px;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 7%;
+}   
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s,border 0.2s,color 0.2s;
+}
+
+
+
+
+.instruments-button1{
+    font-size: 250%;
+    background-color: transparent;
+    color: #bf55ec;
+    margin-right: 10px;
+    border: 2px solid #bf55ec;
+}
+
+.instruments-button2{
+    font-size: 250%;
+    background-color: transparent;
+    color: blue;
+    margin-right: 10px;
+    border: 2px solid blue;
+}
+.instruments-button3{
+    font-size: 250%;
+    background-color: transparent;
+    color: greenyellow;
+    margin-right: 10px;
+    border: 2px solid greenyellow;
+}
+.instruments-button4{
+    font-size: 250%;
+    background-color: transparent;
+    color: orange ;
+    margin-right: 10px;
+    border: 2px solid orange;
+}
+
+
+
+
+
+
+.instruments-button1:hover{
+    background-color: rgba(146, 8, 238, 0.301);
+}
+.instruments-button2:hover{
+    background-color: rgba(23, 8, 238, 0.301);
+}
+.instruments-button3:hover{
+    background-color: rgba(81, 238, 8, 0.301);
+}
+.instruments-button4:hover{
+    background-color: rgba(238, 100, 8, 0.301);
+}
+
+
+
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgba(0,0,0,0.7);
+    overflow: hidden;
+    font-size: 20px;
+    
+}
+  
+  /* Style the links inside the navigation bar*/
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(9, 1, 14);
+    box-sizing: border-box;
+    
+}  
+.colourchange{
+    animation: colourchangemusic 1s infinite;
+}
+@keyframes colourchangemusic{
+    0%{color: red;}
+    25%{color: #bf55ec;}
+    50%{color: white;}
+    100%{color: #bf55ec;}
+}
+  
+
+
+
+  
