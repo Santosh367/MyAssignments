@@ -4,6 +4,7 @@ body {
   text-align: center;
   background-color: #283149;
   background-image:url("/Images/xylophone12.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
