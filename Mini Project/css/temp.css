@@ -24,3 +24,58 @@
     background-color: #4CAF50;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 999px) and (max-width: 1200px){
+  .main-content-header{
+      width: 100%;
+      padding: 0 2%;
+  }
+}
+@media (min-width: 767px) and  (max-width: 998px){
+
+  .main-content-header{
+      font-size: 80%;
+      width: 100%;
+      padding: 0 2%;
+}
+@media (min-width:500) and (max-width: 768px){
+
+  .main-nav{
+      display: none;
+  }
+  .main-content-header{
+      font-size: 100%;
+      width: 100%;
+      padding: 0 2%;
+  }
+  .mobile-icon{
+      display: inline-block;
+      position: absolute;
+      left: 85%;
+      width: 120;  
+      color:#fff;
+      margin-top: 30px;
+      margin-right: 20px;
+  }
+  .main-nav li{
+      float: left;
+      display: block;
+      font-size: 50%;
+  }
+}
+

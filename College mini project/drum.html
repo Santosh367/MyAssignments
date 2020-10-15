@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drums</title>
+  <style>body{
+    background-image: url("drumimages/back.jpg");
+  }</style>
+  <link rel="stylesheet" href="css/drumstyles.css">
+  <link rel="stylesheet" href="css/animstyles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="#home">Home</a>
+    <a class="active" href="#drums">Drums</a>
+    <a href="#piano">Piano</a>
+    <a href="xylo.html">Xylophone</a>
+    <a href="flutes.html">Flute</a>
+  </div>
+  <h1>Drums</h1>
+  <div class="set">
+    <button class="a drum" id="a" ><img src="drumimages/crash.png" class="drumImage">a</button>
+    <button class="s drum" id="s"><img src="drumimages/kick.png" class="drumImage">s</button>
+    <button class="d drum" id="d"><img src="drumimages/snare.png"class="drumImage" >d</button>
+    <button class="f drum" id="f"><img src="drumimages/tom1.png" class="drumImage">f</button>
+    <button class="j drum" id="j"><img src="drumimages/tom2.png" class="drumImage">j</button>
+    <button class="k drum" id="k"><img src="drumimages/tom3.png" class="drumImage">k</button>
+    <button class="l drum" id="l"><img src="drumimages/tom4.png" class="drumImage">l</button>
+  </div>
+  <div id="audios">
+    <audio data-key="a" src="drumsounds/crash.mp3"></audio>
+    <audio data-key="s" src="drumsounds/kick-bass.mp3"></audio>
+    <audio data-key="d" src="drumsounds/snare.mp3"></audio>
+    <audio data-key="f" src="drumsounds/tom-1.mp3"></audio>
+    <audio data-key="j" src="drumsounds/tom-2.mp3"></audio>
+    <audio data-key="k" src="drumsounds/tom-3.mp3"></audio>
+    <audio data-key="l" src="drumsounds/tom-4.mp3"></audio>
+  </div>
+  
+  <div id="description" class="row">
+    <div class="column"><h2>About Drums</h2>
+    <p>The drum is a member of the percussion group of musical instruments. In the Hornbostel-Sachs classification system, it is a membranophone. Drums consist of at least one membrane, called a drumhead or drum skin, that is stretched over a shell and struck, either directly with the player's hands, or with a percussion mallet, to produce sound. There is usually a resonance head on the underside of the drum, typically tuned to a slightly lower pitch than the top drumhead.</p></div>
+  </div>
+
+  <script src="js/app.js" charset="utf-8"></script>
+
+</body>
+</html>
+  

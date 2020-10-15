@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <title>Xylophone</title>
+    <link rel="stylesheet" href="css/xylostyle.css" />
+    <link rel="stylesheet" href="css/animstyles.css">
+    <style>body{
+      background-image: url("xylophone.jpg");
+    }</style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a class="active" href="xylo.html">Xylophone</a>
+      <a href="drum.html">Drums</a>
+      <a href="piano.html">Piano</a>
+      <a href="flutes.html">Flute</a>
+    </div>
+    <h1>Xylophone</h1>   
+    <div id="notes">
+      <button data-key="a" class="red xylo" id="a">A</button>
+      <button data-key="s" class="orange xylo" id="s">S</button>
+      <button data-key="d" class="yellow xylo" id="d">D</button>
+      <button data-key="f" class="green xylo" id="f">F</button>
+      <button data-key="j" class="teal xylo" id="j">J</button>
+      <button data-key="k" class="blue xylo" id="k">K</button>
+      <button data-key="l" class="purple xylo" id="l">L</button>
+    </div>
+
+    <div id="audios">
+      <audio data-key="a" src="xylonotes/1.wav"></audio>
+      <audio data-key="s" src="xylonotes/2.wav"></audio>
+      <audio data-key="d" src="xylonotes/3.wav"></audio>
+      <audio data-key="f" src="xylonotes/4.wav"></audio>
+      <audio data-key="j" src="xylonotes/5.wav"></audio>
+      <audio data-key="k" src="xylonotes/6.wav"></audio>
+      <audio data-key="l" src="xylonotes/7.wav"></audio>
+    </div>
+    <div id="description" class="row">
+      <!-- <div class="column"><img src="fluteImage/flute.jpg" alt="" width="75%" class="instruImage"></div> -->
+      <div class="column"><h2>About Xylophone</h2>
+      <p>Xylophone, from Greek xylon and phonē, “wood” and “sound”, percussion instrument consisting of a set of graduated, tuned wooden bars supported at nodal (nonvibrating) points and struck with sticks or padded mallets.</p></div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

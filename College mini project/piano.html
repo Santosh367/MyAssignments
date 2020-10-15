@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <title>Piano</title>
+    <link rel="stylesheet" href="css/piano.css" />
+    <link rel="stylesheet" href="css/animstyles.css">
+    <style>body{
+      background-image: url("piano.jpg");
+    }</style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="xylo.html">Xylophone</a>
+      <a href="drum.html">Drums</a>
+      <a class="active" href="piano.html">Piano</a>
+      <a href="flutes.html">Flute</a>
+    </div>
+    <h1>Piano</h1>   
+    <div id="keys">
+    <button data-key="q" class="white piano" id="q">Q</button>
+      <button data-key="w" class="black piano" id="w">W</button>
+      <button data-key="e" class="white piano" id="e">E</button>
+      <button data-key="r" class="black piano" id="r">R</button>
+      <button data-key="t" class="white piano" id="t">T</button>
+      <button data-key="y" class="black piano" id="y">Y</button>
+      <button data-key="u" class="white piano" id="u">U</button>
+      <button data-key="i" class="black piano" id="i">I</button>
+      <button data-key="o" class="white piano" id="o">O</button>
+      <button data-key="p" class="black piano" id="p">P</button>
+      <button data-key="a" class="white piano" id="a">A</button>
+      <button data-key="s" class="black piano" id="s">S</button>
+      <button data-key="d" class="white piano" id="d">D</button>
+      <button data-key="f" class="black piano" id="f">F</button>
+      <button data-key="g" class="white piano" id="g">G</button>
+      <button data-key="h" class="black piano" id="h">H</button>
+      <button data-key="j" class="white piano" id="j">J</button>
+      <button data-key="k" class="black piano" id="k">K</button>
+      <button data-key="l" class="black piano" id="l">L</button>
+      <button data-key="z" class="white piano" id="z">Z</button>
+      <button data-key="x" class="black piano" id="x">X</button>
+      <button data-key="c" class="white piano" id="c">C</button>
+      <button data-key="v" class="black piano" id="v">V</button>
+      <button data-key="b" class="white piano" id="b">B</button>
+      <button data-key="n" class="black piano" id="n">N</button>
+      <button data-key="m" class="black piano" id="m">M</button>
+    </div>
+
+    <div id="audios">
+
+      <audio data-key="q" src="pianosounds/1.ogg"></audio>
+      <audio data-key="w" src="pianosounds/2.ogg"></audio>
+      <audio data-key="e" src="pianosounds/3.ogg"></audio>
+      <audio data-key="r" src="pianosounds/4.ogg"></audio>
+      <audio data-key="t" src="pianosounds/5.ogg"></audio>
+      <audio data-key="y" src="pianosounds/6.ogg"></audio>
+      <audio data-key="u" src="pianosounds/7.ogg"></audio>
+      <audio data-key="i" src="pianosounds/8.ogg"></audio>
+      <audio data-key="o" src="pianosounds/9.ogg"></audio>
+      <audio data-key="p" src="pianosounds/10.ogg"></audio>
+      <audio data-key="a" src="pianosounds/11.ogg"></audio>
+      <audio data-key="s" src="pianosounds/12.ogg"></audio>
+      <audio data-key="d" src="pianosounds/13.ogg"></audio>
+      <audio data-key="f" src="pianosounds/14.ogg"></audio>
+      <audio data-key="g" src="pianosounds/15.ogg"></audio>
+      <audio data-key="h" src="pianosounds/16.ogg"></audio>
+      <audio data-key="j" src="pianosounds/17.ogg"></audio>
+      <audio data-key="k" src="pianosounds/18.ogg"></audio>
+      <audio data-key="l" src="pianosounds/19.ogg"></audio>
+      <audio data-key="z" src="pianosounds/20.ogg"></audio>
+      <audio data-key="x" src="pianosounds/21.ogg"></audio>
+      <audio data-key="c" src="pianosounds/22.ogg"></audio>
+      <audio data-key="v" src="pianosounds/23.ogg"></audio>
+      <audio data-key="b" src="pianosounds/24.ogg"></audio>
+      <audio data-key="n" src="pianosounds/25.ogg"></audio>
+      <audio data-key="m" src="pianosounds/26.ogg"></audio>
+    </div>
+    <div id="description" class="row">
+      <div class="column">
+        <h3>
+          A sample music of piano
+        </h3>
+        <audio controls>
+        <source src="pianosounds/pianoSample.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+      <div class="column">
+        <h2>About Piano</h2>
+      <p>A piano has a keyboard with white keys and black keys. When a key is pressed down, the damper comes off the string and a hammer hits the string. It hits it very quickly and bounces off so that the string is free to vibrate and make a sound. When the player takes his finger off the key the damper falls back onto the string and the sound stops. The strings are stretched very tightly across the frame, passing over a bridge on the way. The bridge touches the soundboard. This means that the vibrations are sent to the soundboard. The soundboard is a very important part of the piano. If it is damaged the piano will not make a sound.</p></div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

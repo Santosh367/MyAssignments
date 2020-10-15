@@ -1,0 +1,69 @@
+#s {
+    position: relative;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  #a {
+    position: relative;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  
+  #d {
+    position: relative;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  #f {
+    position: relative;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  
+  #j {
+    position: relative;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  #k {
+    position: relative;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  
+  #l {
+    position: relative;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  #g {
+    position: relative;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  #h {
+    position: relative;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  
+  #w {
+    position: relative;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
+  @keyframes anim {
+    0%   { left:0px; top:0px;}
+    50% {left:0px; top:30px;}
+    100%{ left:0px; top:0px;}
+  }

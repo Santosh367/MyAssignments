@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Music Maker</title>
+        <title>Instru-mental</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     </head>
     <body>
         <header>
             <nav>
                 <div class="topnav">
                     <div class="row clearfix">
-                        <img src="Images/Untitled.png" class="logo">
-                        <ul class="main-nav animate__animated animate__slideInDown" id="check-class">
-                            <li><a href="index.html" >HOME</a></li>
+                        <img src="image/Untitled.png" class="logo">
+                        <ul class="main-nav">
+                            <li><a href="index.html" class="active" >HOME</a></li>
                             <li><a href="drum.html" >DRUMS</a></li>
                             <li><a href="xylo.html" >XYLOPHONE</a></li>
                             <li><a href="#" >PIANO</a></li>
+                            <li><a href="flutes.html" onclick="alertUser()" >FLUTE</a></li>
                             <li><a href="#" >ABOUT</a></li>
                         </ul>
-                        <a class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
                     </div>
                 </div>
             </nav>
             <div class="main-content-header">
                 <br>
-                <h1>WELCOME TO <span class="colourchange">Instru-Mental</span>.</h1>
-                <p> We offer you the possibility of learning and creating music by playing musical instruments online using your PC keyboard as the interface. 
+                <h1>WELCOME TO <span class="colourchange">Instru-mental</span>.</h1>
+                <p> We offer you the possibility of playing musical instruments online on computer using your keyboard as the interface. 
                  Our online musical instruments include the Virtual Guitar, Virtual Piano, Virtual Drums, Virtual Xylophone and the Virtual Pan Flute. There are
                  different instruments, different beats, different music, With online instruments you can experiment with sound and continue to build a love for 
                  music which translates to a desire to learn to play an instrument.</p>
@@ -36,18 +35,21 @@
                 <br>
                 <br>
             </div>
-            <br>
             <div class="button">
                 <a href="drum.html" class="btn instruments-button1">Drums</a>
                 <a href="xylo.html" class="btn instruments-button2">Xylophone</a>
-                <a href="#" class="btn instruments-button3">Piano</a>
-                <a href="#" class="btn instruments-button4">Guitar</a>
+                <a href="#" class="btn instruments-button3" onclick="alertUser()">Piano</a>
+                <a href="flutes.html" class="btn instruments-button4">Flute</a>
             </div>
         </header>   
     </body>
-    <script src="mobileicon.js" charset="utf-8"></script>
-
+    <script>
+        function alertUser(){
+            alert("Piano coming soon!!!")
+        }
+    </script>
+    <script src="js/app.js" charset="utf-8"></script>
     <footer>
-        <p>Copyright &copy; 2020 Instrumental</p>
+        <p>Copyright &copy; 2020 MusicMaker</p>
     </footer>
 </html>
